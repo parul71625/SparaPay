@@ -1,0 +1,35 @@
+<ion-view title="SparaPay" id="page5">
+  <ion-content padding="true" class="has-header">
+    <form id="sparaPay-form1" class="list">
+      <label class="item item-input">
+        <span class="input-label">@</span>
+        <input disabled="" type="text" placeholder="Pay to" ng-click="switchToContacts()" id="cbox">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">$</span>
+        <input disabled="" type="text" placeholder="" id="amount">
+      </label>
+    </form>
+    <div id="sparaPay-container1">
+      <button id="sparaPay-button5" ng-click="enterNumber(&quot;1&quot;)" style="border-radius:0px 0px 0px 0px;" class="button button-balanced keypad">1</button>
+      <button id="sparaPay-button10" ng-click="enterNumber(&quot;2&quot;)" style="border-radius:0px 0px 0px 0px;" class="button button-balanced keypad">2</button>
+      <button id="sparaPay-button15" ng-click="enterNumber(&quot;3&quot;)" style="border-radius:0px 0px 0px 0px;" class="button button-balanced keypad">3</button>
+    </div>
+    <div id="sparaPay-container2">
+      <button id="sparaPay-button16" ng-click="enterNumber(&quot;4&quot;)" style="border-radius:0px 0px 0px 0px;" class="button button-balanced keypad">4</button>
+      <button id="sparaPay-button9" ng-click="enterNumber(&quot;5&quot;)" style="border-radius:0px 0px 0px 0px;" class="button button-balanced keypad">5</button>
+      <button id="sparaPay-button8" ng-click="enterNumber(&quot;6&quot;)" style="border-radius:0px 0px 0px 0px;" class="button button-balanced keypad">6</button>
+    </div>
+    <div id="sparaPay-container3">
+      <button id="sparaPay-button11" ng-click="enterNumber(&quot;7&quot;)" style="border-radius:0px 0px 0px 0px;" class="button button-balanced keypad">7</button>
+      <button id="sparaPay-button14" ng-click="enterNumber(&quot;8&quot;)" style="border-radius:0px 0px 0px 0px;" class="button button-balanced keypad">8</button>
+      <button id="sparaPay-button12" ng-click="enterNumber(&quot;9&quot;)" style="border-radius:0px 0px 0px 0px;" class="button button-balanced keypad">9</button>
+    </div>
+    <div id="sparaPay-container4">
+      <button id="sparaPay-button13" ng-click="enterNumber(&quot;.&quot;)" style="border-radius:0px 0px 0px 0px;" class="button button-balanced keypad">.</button>
+      <button id="sparaPay-button6" ng-click="enterNumber(&quot;0&quot;)" style="border-radius:0px 0px 0px 0px;" class="button button-balanced keypad">0</button>
+      <button id="sparaPay-button7" ng-click="clearInput()" style="font-size:14px;border-radius:0px 0px 0px 0px;" class="button button-balanced keypad">CLR</button>
+    </div>
+    <a ui-sref="tabsController.success()" id="sparaPay-button17" class="button button-balanced button-block">Pay</a>
+  </ion-content>
+</ion-view>

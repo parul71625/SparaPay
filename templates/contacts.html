@@ -1,0 +1,18 @@
+<ion-view title="Contacts" id="page6">
+  <ion-content padding="true" class="has-header">
+    <div id="contacts-container5">
+      <form id="contacts-form2" class="list">
+        <label class="item item-input search" id="contacts-search3">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" placeholder="" ng-model="search">
+        </label>
+      </form>
+    </div>
+    <ion-list id="contacts-list1" ng-repeat="x in contacts | filter : search" class="manual-list-fullwidth listitems">
+      <ion-item class="positive listitems" id="contacts-list-item1" ng-click="addContact(&quot;{{x.name}}&quot;)">{{x.name}}</ion-item>
+      <ion-item class="item-avatar listitems contact" id="contacts-list-item4" ng-click="addContact(&quot;{{x.name}}&quot;)">
+        <h2>{{x.phno}}</h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

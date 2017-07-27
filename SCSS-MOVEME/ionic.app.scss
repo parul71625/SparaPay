@@ -1,0 +1,58 @@
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.title .title-left .header-item {
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+
+.padding {
+	padding: 55px;
+}
+
+.button {
+	margin: -2px;
+	border-radius: 3px;
+}
+
+.keypad {
+	height: 60px;
+	width: 60px;
+}
+
+.input-label {
+	margin-right: -40px;
+	padding: 7px 60px 7px 0px;
+}
+
+input[disabled] {
+	background-color: white;
+	border-style: hidden;
+}
+
+ion-view,.pane,.view {
+	background-color: #66F266;
+}
+
+.listitems {
+	width: 145%;
+	margin-left: -44px;
+	text-align: left;
+}
+
+.contact {
+	margin-bottom: -22px;
+}
+
+.search {
+	width: 132%;
+	margin-left: -33px;
+	margin-top: -32px;
+}
+
+ion-view,.pane,.view {
+	background-color: #13FB65;
+}
+
